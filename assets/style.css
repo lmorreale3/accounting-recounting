@@ -114,3 +114,8 @@ th { font-family: var(--sans); font-size: .8rem; text-transform: uppercase; lett
 
 .site-footer { border-top: 1px solid var(--rule); background: var(--paper-2); font-family: var(--sans); font-size: .85rem; color: var(--ink-soft); padding: 24px 0; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+
+/* bibliography: hanging indent */
+.bib { list-style: none; padding: 0; margin: 0; }
+.bib li { padding-left: 2em; text-indent: -2em; margin: 0 0 .8em; }
+.bib a { word-break: break-all; }
