@@ -9,7 +9,7 @@ Workshop website for the SIMS / Penn Libraries spring 2027 workshop series.
 | `index.html` | Overview, workspace buttons, session cards, leaders, summary matrix |
 | `session-1.html` … `session-4.html` | One page per workshop: documents & tools box, overview, assignment, session log |
 | `bonus.html` | Bonus manuscript meeting with Elena Brizio (March 10) |
-| `workspace.html` | All tools in one place: FromThePage, project log, transcription statement, eScriptorium, leggio, both MSS |
+| `workspace.html` | All tools in one place: FromThePage, project log, transcription statement, eScriptorium, both MSS, and a note on the Leggio and Conti demonstration |
 | `resources.html` | Bibliography & resources (placeholders to fill in) |
 
 ## Adding your links (one file)
@@ -20,7 +20,6 @@ Open `assets/config.js` and paste URLs into the empty `""` values:
 - `projectLog` – shared Google Sheet
 - `transcriptionStatement` – Google Doc of transcription conventions
 - `escriptorium` – Penn Libraries eScriptorium instance
-- `leggio` – your deployed leggio fork showing MS 1321 and MS 1508 (optionally `leggio1321` / `leggio1508` for direct links)
 
 Any link left empty shows as a dashed "Link coming soon" button everywhere it appears.
 

@@ -20,13 +20,6 @@ window.SITE_LINKS = {
   /* Penn Libraries eScriptorium instance */
   escriptorium: "",
 
-  /* Your deployed leggio viewer (GitHub Pages URL of your fork) */
-  leggio: "",
-
-  /* Optional: deep links into leggio for each manuscript, if supported */
-  leggio1321: "",
-  leggio1508: "",
-
   /* Penn Libraries catalogue records (Colenda) */
   colenda1321: "https://colenda.library.upenn.edu/catalog/81431-p35q4rn2w",
   colenda1508: "https://colenda.library.upenn.edu/catalog/81431-p3wh2dg26",
