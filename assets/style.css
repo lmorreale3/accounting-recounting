@@ -204,7 +204,7 @@ th { font-weight: 400; font-size: .68rem; text-transform: uppercase; letter-spac
 .bib li { padding-left: 2em; text-indent: -2em; margin: 0 0 .9em; }
 .bib a { word-break: break-all; }
 
-/* ── landing cover: the Princeton binding fills the first screen ── */
+/* ── landing cover: the Penn MS 1435 binding fills the first screen ── */
 .hero-full.cover { min-height: calc(100vh - 112px); min-height: calc(100svh - 112px); align-items: center; text-align: center; }
 .hero-full.cover > img { object-position: 50% 50%; }
 .hero-full.cover::after { background:

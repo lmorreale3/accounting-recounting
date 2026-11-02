@@ -30,8 +30,9 @@ window.SITE_LINKS = {
   colenda1321: "https://colenda.library.upenn.edu/catalog/81431-p35q4rn2w",
   colenda1508: "https://colenda.library.upenn.edu/catalog/81431-p3wh2dg26",
 
-  /* Princeton University Library record for MS. 131 (landing-page image credit) */
-  princetonMs131: "https://catalog.princeton.edu/catalog/99115198343506421",
+  /* Penn Oversize Ms. Codex 1435 (home-page cover image credit): catalogue record and digital images */
+  penn1435Catalog: "https://find.library.upenn.edu/catalog/9944553943503681",
+  penn1435Image: "https://digitalcollections.library.upenn.edu/items/9ab66f85-443c-4b0b-94eb-faf996c3567b",
 
   /* Registration / contact */
   register: "",
