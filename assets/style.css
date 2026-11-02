@@ -203,3 +203,29 @@ th { font-weight: 400; font-size: .68rem; text-transform: uppercase; letter-spac
 .bib { list-style: none; padding: 0; margin: 0; }
 .bib li { padding-left: 2em; text-indent: -2em; margin: 0 0 .9em; }
 .bib a { word-break: break-all; }
+
+/* ── landing cover: the Princeton binding fills the first screen ── */
+.hero-full.cover { min-height: calc(100vh - 112px); min-height: calc(100svh - 112px); align-items: center; text-align: center; }
+.hero-full.cover > img { object-position: 50% 50%; }
+.hero-full.cover::after { background:
+  radial-gradient(ellipse at center, rgba(20,12,8,.62) 0%, rgba(20,12,8,.38) 55%, rgba(20,12,8,.55) 100%); }
+.hero-full.cover .wrap { padding-top: 64px; padding-bottom: 96px; }
+.hero-full.cover h1 { max-width: 20ch; margin: 0 auto .4em; font-size: clamp(2.6rem, 6vw, 4.8rem); text-shadow: 0 2px 24px rgba(0,0,0,.35); }
+.hero-full.cover .lede { margin: 0 auto; }
+.cover-actions { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.cover-actions .btn { margin: 0; }
+.hero-full.cover .hero-credit { left: 50%; right: auto; transform: translateX(-50%); width: min(560px, calc(100% - 32px)); text-align: center; }
+
+/* centred reading column */
+.prose { max-width: 44rem; text-align: left; }
+.prose .eyebrow, .prose h2 { text-align: center; }
+
+/* inner-page header with an image */
+.hero.with-figure .wrap { grid-template-columns: 1.3fr 1fr; }
+.hero.with-figure figure img { max-height: 520px; box-shadow: 0 12px 32px rgba(40,25,15,.18); }
+.hero.with-figure figcaption { text-align: right; }
+@media (max-width: 860px) {
+  .hero.with-figure .wrap { grid-template-columns: 1fr; }
+  .hero.with-figure figure img { margin: 0 auto; max-height: 420px; }
+  .hero.with-figure figcaption { text-align: center; }
+}
