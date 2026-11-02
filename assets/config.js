@@ -6,16 +6,19 @@
  */
 window.SITE_LINKS = {
   /* Transcription portal: your FromThePage collection or project */
-  fromthepage: "",
+  fromthepage: "https://fromthepage.com/laurakmorrealellc/italian-accounts/ms-1321-ledger-of-medici-accounts",
+
+  /* FromThePage: MS 1508 */
+  fromthepage1508: "https://fromthepage.com/laurakmorrealellc/italian-accounts/ledger-of-medici-debtors-and-creditors-and-accounts",
 
   /* FromThePage sign-up instructions (Google Doc or similar) */
   ftpSignup: "https://fromthepage.com/users/sign_up",
 
   /* Project log (e.g. a shared Google Sheet) */
-  projectLog: "",
+  projectLog: "https://docs.google.com/spreadsheets/d/1lVZmxgbQTec8g_j9pNfas0Fk7aPltwzUa4QFQePk_YI/edit",
 
   /* Transcription statement / conventions (e.g. a Google Doc) */
-  transcriptionStatement: "",
+  transcriptionStatement: "https://docs.google.com/document/d/1nhNVsSbiXqxoOl9caYga1cPOSJ7FftEIrWD0m7bX73s/edit",
 
   /* Penn Libraries eScriptorium instance */
   escriptorium: "",
