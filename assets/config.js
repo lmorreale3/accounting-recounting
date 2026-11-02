@@ -24,6 +24,9 @@ window.SITE_LINKS = {
   colenda1321: "https://colenda.library.upenn.edu/catalog/81431-p35q4rn2w",
   colenda1508: "https://colenda.library.upenn.edu/catalog/81431-p3wh2dg26",
 
+  /* Princeton University Library record for MS. 131 (landing-page image credit) */
+  princetonMs131: "https://catalog.princeton.edu/catalog/99115198343506421",
+
   /* Registration / contact */
   register: "",
   contactEmail: "laura_morreale@fas.harvard.edu"
