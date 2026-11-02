@@ -17,8 +17,11 @@ window.SITE_LINKS = {
   /* Project log (e.g. a shared Google Sheet) */
   projectLog: "https://docs.google.com/spreadsheets/d/1lVZmxgbQTec8g_j9pNfas0Fk7aPltwzUa4QFQePk_YI/edit",
 
-  /* Transcription statement / conventions (e.g. a Google Doc) */
-  transcriptionStatement: "https://docs.google.com/document/d/1nhNVsSbiXqxoOl9caYga1cPOSJ7FftEIrWD0m7bX73s/edit",
+  /* Transcription statement: shared drafting page (Claude artifact) */
+  transcriptionStatement: "https://claude.ai/artifact/31godSTVCijaZ7PctVPnoP",
+
+  /* Ledger Finds: shared board of discoveries (Claude artifact) */
+  ledgerFinds: "https://claude.ai/artifact/WBfwep2igkaokonVgFq5Fg",
 
   /* Penn Libraries eScriptorium instance */
   escriptorium: "",
