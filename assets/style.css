@@ -151,6 +151,8 @@ figcaption { font-size: .74rem; color: var(--ink-soft); margin-top: 10px; letter
 .tool-btn .status { font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-top: 6px; }
 .tool-btn.pending { opacity: .62; cursor: default; border-style: dashed; }
 .tool-btn.pending .status { color: var(--gold); }
+.tools-note { font-size: .82rem; color: var(--ink-soft); margin: 12px 0 0; max-width: 60rem; }
+.tools-note strong { font-weight: 500; color: var(--ink); }
 .tool-btn.featured { border-left: 3px solid var(--ink); }
 
 /* ── inner-page header ─────────────────────── */
